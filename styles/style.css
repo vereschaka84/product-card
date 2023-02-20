@@ -124,3 +124,15 @@ button {
 	}
 }
 
+@media screen and (max-width: 799px) {
+	.product {
+	max-width: 70%;
+	}
+}
+
+
+@media screen and (max-width: 540px) {
+	.product {
+	max-width: 100%;
+	}
+}
