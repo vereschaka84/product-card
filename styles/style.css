@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
+@import url(https://fonts.googleapis.com/css?family=Fraunces:700);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+:root {
+	--darkcyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+	--darkblue: hsl(212, 21%, 14%);
+	--darkgrayishblue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+	--mb: 1.5rem;
+}
+
+body {
+	font-size: 14px;
+	background: var(--cream);
+	height: 100vh;
+	width: 100%;
+	color: var(--darkgrayishblue);
+	font-family:Montserrat, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	max-width: 45%;
+	background: var(--white);
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.product__img, .product__info {
+	width: 50%;
+}
+
+.product__info {
+	display: flex;
+	flex-direction: column;
+	padding: 2.2rem;
+}
+
+.product__title {
+	font-size: 2rem;
+	font-family: Fraunces, serif;
+	color: var(--darkblue);
+	margin-bottom: var(--mb);
+}
+
+.product__img {
+	background-image: url('../images/image-product-desktop.jpg');
+	background-size: cover;
+	min-height: 525px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.product__category {
+	letter-spacing: 2px;
+	margin-bottom: var(--mb);
+}
+
+.product__description {
+	line-height: 1.7;
+	margin-bottom: var(--mb);
+}
+
+.product__price {
+	margin-bottom: var(--mb);
+}
+
+
+.price-new {
+	font-family: Fraunces, serif;
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--darkcyan);
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.price-old {
+	text-decoration: line-through;
+	vertical-align: middle;
+}
+
+button {
+	background-color: var(--darkcyan);
+	color: var(--white);
+	padding: 15px;
+	border: none;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.cart-icon {
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+
+@media screen and (max-width: 1199px) {
+	.product__img {
+		background-image: url('../images/image-product-mobile.jpg');
+		min-height: 400px;
+		
+	}
+
+	.product {
+		flex-direction: column;
+	}
+
+	.product__img, .product__info {
+		width: 100%;
+	}
+}
+

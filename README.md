@@ -2,10 +2,14 @@
 
 This is a simple responsive product card.
 
+### Screenshot
+
+![](images/screenshot.jpg)
+
 ### Links
 
-- Live URL - https://your-live-site-url.com
-- All projects - https://github.com/vereschaka84?tab=repositories
+- Live URL: [Add live site URL here](https://your-live-site-url.com)
+- All projects: [Add solution URL here](https://your-solution-url.com)
 
 ### Built with
 
