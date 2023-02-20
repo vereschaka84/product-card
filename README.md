@@ -5,7 +5,7 @@ This is a simple responsive product card.
 ### Links
 
 - Live URL - https://your-live-site-url.com
-- All projects - https://your-solution-url.com
+- All projects - https://github.com/vereschaka84?tab=repositories
 
 ### Built with
 
