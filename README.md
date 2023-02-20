@@ -8,7 +8,7 @@ This is a simple responsive product card.
 
 ### Links
 
-- Live URL: [Add live site URL here](https://your-live-site-url.com)
+- Live URL: https://vereschaka84.github.io/product-card/
 - All projects: https://github.com/vereschaka84
 
 ### Built with
