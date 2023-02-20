@@ -4,7 +4,7 @@ This is a simple responsive product card.
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+images/screenshot.jpg
 
 ### Links
 
